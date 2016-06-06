@@ -64,7 +64,6 @@ public class PersonServlet extends javax.servlet.http.HttpServlet {
 
     }
 
-
     private static void updatePerson(HttpServletRequest request) {
 
         logger.info("Form #2 - Form Name=" + request.getParameter("formName"));

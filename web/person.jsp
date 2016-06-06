@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" href="./static/css/site.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/site.css"/>
 </head>
 <body>
     Form #1
@@ -34,13 +34,9 @@
                     </c:choose>
                 </c:forEach>
 
-
-
-
             </select>
 
             ${selectPerson}
-
 
             <button type="submit">Select Person</button>
 

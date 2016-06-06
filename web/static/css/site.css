@@ -1,0 +1,44 @@
+.border {
+    border-style: solid;
+    border-width: 1px;
+    padding: 1%;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.add-vehicle {
+    width: 25%;
+    background-color: grey;
+    margin-bottom: 1em;
+}
+
+.update-vehicle {
+
+}
+
+.add-fields {
+    width: 60%;
+}
+
+
+.add-fields, label {
+    background-color: aquamarine;
+    float: left;
+    width: 100%;
+
+}
+
+.add-fields select,.add-fields input {
+    width:65%;
+    background-color: aquamarine;
+    float: right;
+}
+
+
+hr {
+    clear: both;
+    margin-bottom: .5em;
+}

@@ -7,9 +7,24 @@
         <servlet-name>PersonServlet</servlet-name>
         <servlet-class>com.astontech.servlet.PersonServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>VehicleServlet</servlet-name>
+        <servlet-class>com.astontech.servlet.VehicleServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VehicleModelToMakeGson</servlet-name>
+        <servlet-class>com.astontech.servlet.VehicleModelToMakeGson</servlet-class>
+    </servlet>
     <servlet-mapping>
+        <servlet-name>VehicleModelToMakeGson</servlet-name>
+        <url-pattern>/vehicleModelToMakeGson</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
         <servlet-name>PersonServlet</servlet-name>
         <url-pattern>/person</url-pattern>
     </servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>VehicleServlet</servlet-name>
+        <url-pattern>/vehicle</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -15,6 +15,7 @@
           <element id="library" level="project" name="mysql-connector-java-5.1.38-bin" />
           <element id="library" level="project" name="sqljdbc4" />
           <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="gson-2.2.4" />
         </element>
       </element>
     </root>
